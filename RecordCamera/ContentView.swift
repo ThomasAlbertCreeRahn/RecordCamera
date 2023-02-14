@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @ObservedObject var viewModel = ContentViewModel()
+    init() {
+        viewModel.checkAuthorization()
+    }
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        PlayerContainerView(captureSession: viewModel.captureSession)
+           .clipShape(Circle())
     }
 }
 
