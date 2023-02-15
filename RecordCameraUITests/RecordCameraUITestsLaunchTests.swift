@@ -18,6 +18,7 @@ final class RecordCameraUITestsLaunchTests: XCTestCase {
     }
 
     func testLaunch() throws {
+        print("what")
         let app = XCUIApplication()
         app.launch()
 

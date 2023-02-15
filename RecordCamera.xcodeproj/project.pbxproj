@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AC13075299CB7A40085D656 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC13074299CB7A40085D656 /* AppDelegate.swift */; };
 		3AE82216299AEE220098A6D6 /* RecordCameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE82215299AEE220098A6D6 /* RecordCameraApp.swift */; };
 		3AE82218299AEE220098A6D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE82217299AEE220098A6D6 /* ContentView.swift */; };
 		3AE8221A299AEE250098A6D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE82219299AEE250098A6D6 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AC13074299CB7A40085D656 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AE82212299AEE220098A6D6 /* RecordCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE82215299AEE220098A6D6 /* RecordCameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCameraApp.swift; sourceTree = "<group>"; };
 		3AE82217299AEE220098A6D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				3AE82240299B22560098A6D6 /* PlayerView.swift */,
 				3AE82215299AEE220098A6D6 /* RecordCameraApp.swift */,
+				3AC13074299CB7A40085D656 /* AppDelegate.swift */,
 				3AE82217299AEE220098A6D6 /* ContentView.swift */,
 				3AE82219299AEE250098A6D6 /* Assets.xcassets */,
 				3AE8221E299AEE250098A6D6 /* RecordCamera.entitlements */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AC13075299CB7A40085D656 /* AppDelegate.swift in Sources */,
 				3AE82241299B22560098A6D6 /* PlayerView.swift in Sources */,
 				3AE82218299AEE220098A6D6 /* ContentView.swift in Sources */,
 				3AE82216299AEE220098A6D6 /* RecordCameraApp.swift in Sources */,

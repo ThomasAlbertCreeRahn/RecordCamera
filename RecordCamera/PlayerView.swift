@@ -10,7 +10,6 @@ import AppKit
 import AVKit
 import SwiftUI
 import Combine
-//do I have to write stuff?
 
 class PlayerView: NSView{
     
